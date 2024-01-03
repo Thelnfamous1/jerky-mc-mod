@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "${group}",
+    "id": "jerkymod",
+    "version": "${version}",
+    "metadata": {
+      "name": "Jerky Mod",
+      "description": "Adds jerky items and replaces smoker recipes.",
+      "contributors": {
+        "blueridger": "Owner"
+      },
+      "contact": {
+        "sources": "https://github.com/blueridger/jerky-mc-mod"
+      },
+      "icon": "assets/jerkymod/icon.png"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "entrypoints": {
+      "init": [
+        "net.jerkymod.quilt.JerkyModQuilt"
+      ]
+    },
+    "depends": [
+      {
+        "id": "quilt_loader",
+        "version": "*"
+      },
+      {
+        "id": "quilt_base",
+        "version": "*"
+      },
+      {
+        "id": "minecraft",
+        "version": ">=1.18.2"
+      },
+      {
+        "id": "architectury",
+        "version": ">=4.11.93"
+      }
+    ]
+  },
+  "minecraft": {
+    "environment": "*"
+  }
+}

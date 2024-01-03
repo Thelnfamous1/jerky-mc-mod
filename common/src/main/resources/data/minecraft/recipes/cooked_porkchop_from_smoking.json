@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": "jerkymod:pork_jerky",
+  "experience": 0.35,
+  "cookingtime": 800
+}

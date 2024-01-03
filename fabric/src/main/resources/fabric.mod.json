@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "jerkymod",
+  "version": "${version}",
+  "name": "Jerky Mod",
+  "description": "Adds jerky items and replaces smoker recipes.",
+  "authors": [
+    "blueridger"
+  ],
+  "contact": {
+    "homepage": "https://github.com/blueridger/jerky-mc-mod",
+    "sources": "https://github.com/blueridger/jerky-mc-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/jerkymod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jerkymod.fabric.JerkyModFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.18.2",
+    "architectury": ">=4.11.93"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "minecraft:cod"
+  },
+  "result": "jerkymod:smoked_cod",
+  "experience": 0.35,
+  "cookingtime": 800
+}

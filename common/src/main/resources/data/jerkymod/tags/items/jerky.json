@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "jerkymod:beef_jerky",
+    "jerkymod:chicken_jerky",
+    "jerkymod:mutton_jerky",
+    "jerkymod:pork_jerky",
+    "jerkymod:rabbit_jerky"
+  ]
+}
