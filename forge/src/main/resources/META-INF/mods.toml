@@ -1,10 +1,10 @@
 modLoader = "javafml"
-loaderVersion = "[40,)"
+loaderVersion = "[43,)"
 issueTrackerURL = "https://github.com/blueridger/jerky-mc-mod"
 license = "MIT"
 
 [[mods]]
-modId = "jerkymod-forge"
+modId = "jerkymod"
 version = "${version}"
 displayName = "Jerky Mod"
 authors = "blueridger"
@@ -16,20 +16,20 @@ Adds jerky items and replaces smoker recipes.
 [[dependencies.jerkymod]]
 modId = "forge"
 mandatory = true
-versionRange = "[40,)"
+versionRange = "[43,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.jerkymod]]
 modId = "minecraft"
 mandatory = true
-versionRange = "[1.18.2,)"
+versionRange = "[1.19.2,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.jerkymod]]
 modId = "architectury"
 mandatory = true
-versionRange = "[4.11.93,)"
+versionRange = "[6.6.92,)"
 ordering = "AFTER"
 side = "BOTH"
